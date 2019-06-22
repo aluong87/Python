@@ -1,7 +1,7 @@
 """
 A simple function that finds the first recurring letter found in a given string.
 It returns a new string with letters that appears more than once.
-If the function does not find any recurring letters, then it will return None.
+If the function does not find any recurring letters, then it will return another string.
 The function first creates a frequency table for a given string and an empty string.
 Then goes through a loop to find if the value of that key (letter) is more than one.
 If the value is indeed greater than one, it will add the key to the empty string.
