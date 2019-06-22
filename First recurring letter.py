@@ -55,7 +55,7 @@ fourth = 'DEDDGILOJEHBKJHDFLKJFKGJKLDFJKHKJGHVCMLSIIIENGSJDKJICUYWKEJBF'
 d, e, f, g = recurring_letter(first), recurring_letter(second), recurring_letter(third), recurring_letter(fourth)
 print('Finding recurring letters...\n')
 print(first)
-print(d + '\n')
+print(d + '\n')  # \n for new line
 print(second)
 print(e + '\n')
 print(third)
@@ -68,15 +68,15 @@ print(g)
 """
 Finding recurring letters...
 
-First string: ABCA
+ABCA
 A
 
-Second string: BCABA
+BCABA
 BA
 
-Third string: ABC
+ABC
 No recurring letters.
 
-Fourth string: DEDDGILOJEHBKJHDFLKJFKGJKLDFJKHKJGHVCMLSIIIENGSJDKJICUYWKEJBF
+DEDDGILOJEHBKJHDFLKJFKGJKLDFJKHKJGHVCMLSIIIENGSJDKJICUYWKEJBF
 DEGILJHBKFCS
 """
