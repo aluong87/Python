@@ -1,5 +1,5 @@
 """
-A simple function that finds the first recurring letter found in a given string.
+A simple function that finds the first recurring letter in a given string.
 It returns a new string with letters that appears more than once.
 If the function does not find any recurring letters, then it will return another string.
 The function first creates a frequency table for a given string, and an empty string.
